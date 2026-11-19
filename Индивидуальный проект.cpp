@@ -201,7 +201,7 @@ int main(int argc, char** argv) {
             }
 
             // === СОХРАНЕНИЕ СТАТУСА В ФАЙЛ ===
-            // Записываем общее количество свободных мест (для будущего бота)
+            // Записываем общее количество свободных мест (для телеграм бота)
             ofstream statusFile("status.txt");
             if (statusFile.is_open()) {
                 statusFile << freeCount;
